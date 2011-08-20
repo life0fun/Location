@@ -1,0 +1,29 @@
+NPM DEP:
+    1. express, jade
+    2. socket.io
+    3. 
+    nodester npm install express socket.io jade cradle
+
+handle.js gets the websocket connect, and client.
+
+You can require a module multiple time, each require is a singleton.
+Module private data is closed thru closure.
+
+Depends on client type, invoke the following 3 types of client to handle request separately.
+
+Server support 3 types of streaming.
+
+1. stream playback file using PlaybackClient.(node.am.mot.com/ or /playback)
+   Each playback client repsents a standalone session to a remote client.
+   There is no correlation between clients, no need to keep global list of clients.
+   remote sends the file to be stream to server, so needs handleMsg in server.
+   remote disconnect, just fine.
+
+2. Realtime streaming client using RealtimeClient(/realtime).
+   all remote clients share one instance of Twitter Node with Rest API.
+   remote client only listening streaming, no sending.
+
+3. TweetClient for tracking keywords. (node.am.mot.com/droid)
+   all remote clients share one instance of TwitterClient.
+   remote client only listening streaming, no sending.
+   one TwitterNode to get streaming from twitter and relay it to all clients in list.
