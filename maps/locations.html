@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Meaningful Locations in Chicago Downtown</title>
+<link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"> </script>
+<script type="text/javascript">
+  function initialize() {
+    var myLatlng = new google.maps.LatLng(42.288, -88.000);
+    var downtown = new google.maps.LatLng(41.884411,-87.625984);
+    var myOptions = {
+      zoom: 14,
+      center: downtown,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+	var routelayer = new google.maps.KmlLayer('file:///Users/e51141/macsrc/maps/chicago.kml',
+		{  suppressInfoWindows: true,
+		   map: map
+		});
+	//layer = new google.maps.FusionTablesLayer(139529);
+	//layer.setMap(map);
+
+	setMarkers()
+  }
+
+  function drawMarker(lat, lng){
+	latlng = new google.maps.LatLng(lat, lng);
+    var marker = new google.maps.Marker({
+        position: latlng, 
+        map: map,
+		animation: google.maps.Animation.DROP,
+		position: latlng,
+        title:"work!"
+    });   
+	google.maps.event.addListener(marker, 'click', toggleBounce);
+  }
+
+  function setMarkers(){
+	for(var i=0;i<locations.length;i+=2){
+		routepoints.push(new google.maps.LatLng(locations[i], locations[i+1]));
+		drawMarker(locations[i], locations[i+1]);
+	}
+	routepath = new google.maps.Polyline({
+		path: routepoints,
+		strokeColor: "#FF0000",
+		strokeOpacity: 1.0,
+		strokeWeight: 2
+	});
+	routepath.setMap(map);
+  }
+
+  function toggleBounce() {
+    if (marker.getAnimation() != null) {
+		marker.setAnimation(null);
+	} else {
+		marker.setAnimation(google.maps.Animation.BOUNCE);
+	}
+  }
+</script>
+
+<script>
+  var routepoints = [];
+  var routepath;
+  var locations = [
+	    42.288456,-88.000299,
+		41.892371,-87.636336,
+		41.893443,-87.630294,
+		41.896855,-87.629852,
+		41.898636,-87.628325,
+		41.884411,-87.625984,
+		41.879335,-87.632068,
+		41.886408,-87.641013,
+		41.882047,-87.641869,
+		41.89303,-87.632067,
+		42.106666,-88.108461,
+  ]
+</script>
+
+</head>
+<body onload="initialize()">
+  <div id="map_canvas"></div>
+</body>
+</html>

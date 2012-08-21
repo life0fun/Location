@@ -1,0 +1,563 @@
+12-22 14:55:42.835  4349  4358 I LSAPP_LocMon: onLocationChanged() :Location[mProvider=network,mTime=1293051342827,mLatitude=42.3355467,mLongitude=-88.1123918,mHasAltitude=false,mAltitude=0.0,mHasSpeed=false,mSpeed=0.0,mHasBearing=false,mBearing=0.0,mHasAccuracy=true,mAccuracy=42.0,mExtras=Bundle[mParcelledData.dataSize=148]]
+12-22 14:55:42.842  4349  4358 I LSAPP_LocMon: Sending Message to caller..either LSMan or LSDet..by this instance's caller handler
+12-22 14:55:42.842  4349  4358 I LSAPP_LSDet: processMessage() : LOCATION_UPDATE available from Location monitor
+12-22 14:55:42.842  4349  4358 I LSAPP_LSDet: checkPOIState : loc update from loc mon: lat:lgt=42.335546::-88.112391
+12-22 14:55:42.944  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: Work measured lat:lgt:accu=42.335546:-88.112391:42 :: Poi Lat:lgt=42.2885:-88.0003 : dist=10616.559: enteringR=92
+12-22 14:55:42.944  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: Home measured lat:lgt:accu=42.335546:-88.112391:42 :: Poi Lat:lgt=42.1066:-88.1084 : dist=25432.902: enteringR=92
+12-22 14:55:42.944  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R1 measured lat:lgt:accu=42.335546:-88.112391:42 :: Poi Lat:lgt=42.300809:-88.014243 : dist=8963.975: enteringR=92
+12-22 14:55:42.952  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R2 measured lat:lgt:accu=42.335546:-88.112391:42 :: Poi Lat:lgt=42.33249:-88.104054 : dist=766.3832: enteringR=92
+12-22 14:55:42.952  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R3 measured lat:lgt:accu=42.335546:-88.112391:42 :: Poi Lat:lgt=42.322035:-88.163594 : dist=4479.21: enteringR=92
+12-22 14:55:42.952  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R4 measured lat:lgt:accu=42.335546:-88.112391:42 :: Poi Lat:lgt=42.345424:-88.292889 : dist=14914.824: enteringR=92
+12-22 14:55:42.952  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R$ measured lat:lgt:accu=42.335546:-88.112391:42 :: Poi Lat:lgt=42.347957:-88.273696 : dist=13363.792: enteringR=92
+12-22 14:55:42.952  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R6 measured lat:lgt:accu=42.335546:-88.112391:42 :: Poi Lat:lgt=42.35684:-88.408009 : dist=24473.533: enteringR=92
+12-22 14:55:42.960  4349  4358 I LSAPP_LSDet: Detection checkPoiDistance :: delayed leaving thru beacon check...current POI:R3 : dist=4479.21 :accu=42leavingR=92
+12-22 14:55:42.960  4349  4358 I LSAPP_LSDet: Detection checkPoiDistance failed to find location dist to any poi...moving to unknown location
+12-22 14:55:43.178  4349  4358 I LSAPP_Beacon: toggleWifi: do nothing : action=true: curWifiState=ENABLE SaveState=ENABLE
+12-22 14:55:43.178  4349  4358 I LSAPP_Beacon: startBeaconScan...upon settle down POI=R3
+12-22 14:55:43.178  4349  4358 I LSAPP_LSDet: Fast Dection scanBeaconUponLeave : leaving POI :R3
+12-22 14:55:43.178  4349  4358 I LSAPP_LSDet: Fast Dection check Leaving thrashing : delayed leave POI :R3
+12-22 14:55:43.178  4349  4358 I LSAPP_DBG: Fast Detection : Beacon checking to Prepare notify VSM : Leaving POI >>>: : R3 : {lat:lgt:accuracy:42.335546:-88.112391:42} : 
+12-22 14:55:43.311  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"65535","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"-1"}, {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}, {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}, {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 14:55:43.311  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"65535","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"-1"}&&{"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:55:43.311  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 14:55:43.311  4349  4358 I LSAPP_Utils: JsonStringSubset : filter out invalid cell json: {"Lac":"65535","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"-1"}
+12-22 14:55:43.311  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=1 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"65535","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"-1"}&&{"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:55:43.311  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 14:55:43.311  4349  4358 I LSAPP_Utils: JsonStringSubset : filter out invalid cell json: {"Lac":"65535","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"-1"}
+12-22 14:55:43.311  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"65535","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"-1"}&&{"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:55:43.311  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 14:55:43.311  4349  4358 I LSAPP_Utils: JsonStringSubset : filter out invalid cell json: {"Lac":"65535","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"-1"}
+12-22 14:55:43.311  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"65535","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"-1"}&&{"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:55:43.311  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 14:55:43.311  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"65535","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"-1"}&&{"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:55:43.311  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"65535","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"-1"}&&{"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:55:43.311  4349  4358 I LSAPP_Utils: JsonStringSubset : filter out invalid cell json: {"Lac":"65535","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"-1"}
+12-22 14:55:43.311  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:55:44.655  4349  4349 D LSAPP_Beacon: getWifiJson: ScanResult :00:24:56:70:aa:e9
+12-22 14:55:44.655  4349  4349 D LSAPP_Beacon: getWifiJson: ScanResult :30:46:9a:81:5d:a9
+12-22 14:55:44.663  4349  4349 D LSAPP_Beacon: getWifiJson: ScanResult :48:5b:39:c8:6c:f2
+12-22 14:55:44.663  4349  4349 D LSAPP_Beacon: getWifiJson: ScanResult :00:25:3c:5a:4c:41
+12-22 14:55:44.663  4349  4349 D LSAPP_Beacon: getWifiJson: ScanResult :00:15:6d:72:37:3b
+12-22 14:55:44.663  4349  4349 I LSAPP_Beacon: notifyAllCallers : notify caller POI=R3 caller:Handler{45ef10a0}
+12-22 14:55:44.663  4349  4358 I LSAPP_LSDet: processMessage() : BEACONSCAN_RESULT Async done....check beacon scan results.
+12-22 14:55:44.663  4349  4358 I LSAPP_LSDet: checkBeaconScanResult: checkLeavingThrashing : Beacon check: no match...Leaving POI :R3
+12-22 14:55:44.663  4349  4358 I LSAPP_DBG: Detection Debouncing : moving into or leaving =false still deboucing with count=-1 : 
+12-22 14:55:45.022  4349  4358 I LSAPP_LSDet: Detection leavingPOI :: notify VSM : OFF Wifi : Leaving Location POI >>> ::R3
+12-22 14:55:45.038  4349  4358 D LSAPP_VSM: Sending : com.motorola.situation.PROXY with params #sensor;name=com.motorola.virtualsensor.Meaningfullocation;p0=Transient;end;
+12-22 14:55:45.053  4349  4358 I LSAPP_DBG: Transient : #Intent;action=com.motorola.situation.VSENSOR;S.android.intent.extra.TEXT=%23sensor%3Bname%3Dcom.motorola.virtualsensor.Meaningfullocation%3Bp0%3DTransient%3Bend%3B;end : 
+12-22 14:55:45.928  4349  4358 I LSAPP_DBG: Fast Detection : notify VSM >>>Leaving POI: : R3: Wifi Off : 
+12-22 14:55:46.319  4349  4358 I LSAPP_Beacon: toggleWifi :: OFF: leave wifi on because not turned on by me !
+12-22 14:56:33.850  4349  4349 I LSAPP_TelMon: GSM :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} new_val: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:33.850  4349  4349 I LSAPP_TelMon: onCellTowerChanged :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:33.897  4349  4349 I LSAPP_TelMon: Telmon : celltower changed..cell has seen, it is bouncing....filter out : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:33.897  4349  4349 I LSAPP_TelMon: celltower did not change based on last cell info(lac, cid)...filter out{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:33.897  4349  4349 I LSAPP_TelMon: TelMon : celltower changed....sending to location detection anyway !{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:33.905  4349  4358 I LSAPP_LSDet: processMessage() : START_DETECTION
+12-22 14:56:33.905  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}, {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}, {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 14:56:33.905  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:33.905  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 14:56:33.905  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=1 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:33.905  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 14:56:33.905  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:33.905  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 14:56:33.905  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:33.905  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 14:56:33.913  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location update and passive listen on beacon scan because moving to POI :R2
+12-22 14:56:33.913  4349  4358 I LSAPP_LSDet: cell changed and startDetection result: curPOI : null :: next POI : R2
+12-22 14:56:33.913  4349  4358 I LSAPP_LSDet: Fast detection on by requesting location update continuously...Run Detection upon new location provider update : {CurPOI:null:NextPOI:R2}
+12-22 14:56:33.991  4349  4358 I LSAPP_Beacon: toggleWifi: do nothing : action=true: curWifiState=ENABLE SaveState=ENABLE
+12-22 14:56:33.991  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: network provider enabled:true
+12-22 14:56:33.991  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: already in monitoring state...return quickly without reset current location
+12-22 14:56:34.038  4349  4358 I LSAPP_DBG: Run Detection upon new location provider update : {CurPOI:null:NextPOI:R2} :  Fast Detection Start Listening Location updates.. : 
+12-22 14:56:35.241  4349  4349 I LSAPP_Beacon: notifyAllCallers : notify caller POI=R3 caller:Handler{45ef10a0}
+12-22 14:56:35.241  4349  4358 I LSAPP_LSDet: processMessage() : BEACONSCAN_RESULT Async done....check beacon scan results.
+12-22 14:56:35.241  4349  4358 I LSAPP_LSDet: checkBeaconScanResult: cur poi=null
+12-22 14:56:35.241  4349  4358 D LSAPP_Utils: Set2String: empty set..return null string
+12-22 14:56:35.241  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}, {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}, {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 14:56:35.241  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.241  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 14:56:35.241  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=1 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.241  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 14:56:35.241  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.241  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 14:56:35.241  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.241  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 14:56:35.241  4349  4349 I LSAPP_TelMon: GSM :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} new_val: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.249  4349  4349 I LSAPP_TelMon: onCellTowerChanged :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.358  4349  4349 I LSAPP_TelMon: Telmon : celltower changed..cell has seen, it is bouncing....filter out : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.358  4349  4349 I LSAPP_TelMon: celltower did not change based on last cell info(lac, cid)...filter out{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.358  4349  4349 I LSAPP_TelMon: TelMon : celltower changed....sending to location detection anyway !{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.358  4349  4358 I LSAPP_LSDet: processMessage() : START_DETECTION
+12-22 14:56:35.358  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}, {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 14:56:35.358  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.358  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 14:56:35.358  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=1 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.358  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 14:56:35.358  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.358  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 14:56:35.358  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.358  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 14:56:35.358  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.358  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.358  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:35.366  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:56:35.366  4349  4358 I LSAPP_LSDet: celltower changed and startDetection...
+12-22 14:56:35.366  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location update and passive listen on beacon scan because moving to POI :R2
+12-22 14:56:35.366  4349  4358 I LSAPP_LSDet: cell changed and startDetection result: curPOI : null :: next POI : R2
+12-22 14:56:35.366  4349  4358 I LSAPP_LSDet: Fast detection on by requesting location update continuously...Run Detection upon new location provider update : {CurPOI:null:NextPOI:R2}
+12-22 14:56:35.460  4349  4358 I LSAPP_Beacon: toggleWifi: do nothing : action=true: curWifiState=ENABLE SaveState=ENABLE
+12-22 14:56:35.460  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: network provider enabled:true
+12-22 14:56:35.460  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: already in monitoring state...return quickly without reset current location
+12-22 14:56:35.545  4349  4358 I LSAPP_DBG: Run Detection upon new location provider update : {CurPOI:null:NextPOI:R2} :  Fast Detection Start Listening Location updates.. : 
+12-22 14:56:36.475  4349  4349 I LSAPP_Beacon: notifyAllCallers : notify caller POI=R3 caller:Handler{45ef10a0}
+12-22 14:56:36.475  4349  4358 I LSAPP_LSDet: processMessage() : BEACONSCAN_RESULT Async done....check beacon scan results.
+12-22 14:56:36.475  4349  4358 I LSAPP_LSDet: checkBeaconScanResult: cur poi=null
+12-22 14:56:36.475  4349  4358 D LSAPP_Utils: Set2String: empty set..return null string
+12-22 14:56:36.475  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}, {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 14:56:36.475  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.475  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 14:56:36.475  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=1 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.475  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 14:56:36.475  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.475  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 14:56:36.491  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.491  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 14:56:36.491  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.491  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.491  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7862","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26434031"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.491  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:56:36.491  4349  4358 I LSAPP_LSDet: checkEnteringBeacons: Beacon no match any poi...:
+12-22 14:56:36.491  4349  4349 I LSAPP_TelMon: GSM :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} new_val: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.491  4349  4349 I LSAPP_TelMon: onCellTowerChanged :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.592  4349  4349 I LSAPP_TelMon: Telmon : celltower changed..cell has seen, it is bouncing....filter out : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.592  4349  4349 I LSAPP_TelMon: celltower did not change based on last cell info(lac, cid)...filter out{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.592  4349  4349 I LSAPP_TelMon: TelMon : celltower changed....sending to location detection anyway !{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.592  4349  4358 I LSAPP_LSDet: processMessage() : START_DETECTION
+12-22 14:56:36.592  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 14:56:36.592  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.592  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 14:56:36.592  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.592  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 14:56:36.592  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.592  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 14:56:36.592  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.592  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 14:56:36.592  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.592  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.592  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:36.592  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:56:36.592  4349  4358 I LSAPP_LSDet: celltower changed and startDetection...
+12-22 14:56:36.600  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location update and passive listen on beacon scan because moving to POI :R2
+12-22 14:56:36.600  4349  4358 I LSAPP_LSDet: cell changed and startDetection result: curPOI : null :: next POI : R2
+12-22 14:56:36.600  4349  4358 I LSAPP_LSDet: Fast detection on by requesting location update continuously...Run Detection upon new location provider update : {CurPOI:null:NextPOI:R2}
+12-22 14:56:36.647  4349  4358 I LSAPP_Beacon: toggleWifi: do nothing : action=true: curWifiState=ENABLE SaveState=ENABLE
+12-22 14:56:36.647  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: network provider enabled:true
+12-22 14:56:36.647  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: already in monitoring state...return quickly without reset current location
+12-22 14:56:36.725  4349  4358 I LSAPP_DBG: Run Detection upon new location provider update : {CurPOI:null:NextPOI:R2} :  Fast Detection Start Listening Location updates.. : 
+12-22 14:56:37.858  4349  4349 I LSAPP_Beacon: notifyAllCallers : notify caller POI=R3 caller:Handler{45ef10a0}
+12-22 14:56:37.858  4349  4358 I LSAPP_LSDet: processMessage() : BEACONSCAN_RESULT Async done....check beacon scan results.
+12-22 14:56:37.858  4349  4358 I LSAPP_LSDet: checkBeaconScanResult: cur poi=null
+12-22 14:56:37.858  4349  4358 D LSAPP_Utils: Set2String: empty set..return null string
+12-22 14:56:37.858  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 14:56:37.858  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:37.858  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 14:56:37.858  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:37.858  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 14:56:37.858  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:37.858  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 14:56:37.858  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:37.858  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 14:56:37.858  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:37.858  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:37.858  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:37.858  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:56:37.858  4349  4358 I LSAPP_LSDet: checkEnteringBeacons: Beacon no match any poi...:
+12-22 14:56:37.866  4349  4349 I LSAPP_TelMon: GSM :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} new_val: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:37.866  4349  4349 I LSAPP_TelMon: onCellTowerChanged :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:38.045  4349  4349 I LSAPP_TelMon: Telmon : celltower changed..cell has seen, it is bouncing....filter out : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:38.045  4349  4349 I LSAPP_TelMon: celltower did not change based on last cell info(lac, cid)...filter out{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:38.045  4349  4349 I LSAPP_TelMon: TelMon : celltower changed....sending to location detection anyway !{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:38.045  4349  4358 I LSAPP_LSDet: processMessage() : START_DETECTION
+12-22 14:56:38.045  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 14:56:38.045  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:38.045  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 14:56:38.045  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:38.045  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 14:56:38.045  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:38.045  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 14:56:38.045  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:38.045  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 14:56:38.045  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:38.045  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:38.045  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:38.045  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:56:38.045  4349  4358 I LSAPP_LSDet: celltower changed and startDetection...
+12-22 14:56:38.053  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location update and passive listen on beacon scan because moving to POI :R2
+12-22 14:56:38.053  4349  4358 I LSAPP_LSDet: cell changed and startDetection result: curPOI : null :: next POI : R2
+12-22 14:56:38.053  4349  4358 I LSAPP_LSDet: Fast detection on by requesting location update continuously...Run Detection upon new location provider update : {CurPOI:null:NextPOI:R2}
+12-22 14:56:38.100  4349  4358 I LSAPP_Beacon: toggleWifi: do nothing : action=true: curWifiState=ENABLE SaveState=ENABLE
+12-22 14:56:38.108  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: network provider enabled:true
+12-22 14:56:38.108  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: already in monitoring state...return quickly without reset current location
+12-22 14:56:38.163  4349  4358 I LSAPP_DBG: Run Detection upon new location provider update : {CurPOI:null:NextPOI:R2} :  Fast Detection Start Listening Location updates.. : 
+12-22 14:56:39.147  4349  4349 I LSAPP_Beacon: notifyAllCallers : notify caller POI=R3 caller:Handler{45ef10a0}
+12-22 14:56:39.147  4349  4358 I LSAPP_LSDet: processMessage() : BEACONSCAN_RESULT Async done....check beacon scan results.
+12-22 14:56:39.147  4349  4358 I LSAPP_LSDet: checkBeaconScanResult: cur poi=null
+12-22 14:56:39.147  4349  4358 D LSAPP_Utils: Set2String: empty set..return null string
+12-22 14:56:39.147  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 14:56:39.147  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:39.147  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 14:56:39.147  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:39.147  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 14:56:39.147  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:39.147  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 14:56:39.147  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:39.147  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 14:56:39.155  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:39.155  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:39.155  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:56:39.155  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:56:39.155  4349  4358 I LSAPP_LSDet: checkEnteringBeacons: Beacon no match any poi...:
+12-22 14:57:11.272  4349  4349 I LSAPP_TelMon: GSM :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} new_val: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:11.272  4349  4349 I LSAPP_TelMon: onCellTowerChanged :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:11.460  4349  4349 I LSAPP_TelMon: Telmon : celltower changed..cell has seen, it is bouncing....filter out : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:11.460  4349  4349 I LSAPP_TelMon: celltower did not change based on last cell info(lac, cid)...filter out{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:11.460  4349  4349 I LSAPP_TelMon: TelMon : celltower changed....sending to location detection anyway !{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:11.467  4349  4358 I LSAPP_LSDet: processMessage() : START_DETECTION
+12-22 14:57:11.467  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 14:57:11.467  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:11.467  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 14:57:11.467  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:11.467  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 14:57:11.467  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:11.467  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 14:57:11.467  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:11.467  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 14:57:11.467  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:11.467  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:11.467  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:11.467  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:57:11.467  4349  4358 I LSAPP_LSDet: celltower changed and startDetection...
+12-22 14:57:11.475  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location update and passive listen on beacon scan because moving to POI :R2
+12-22 14:57:11.475  4349  4358 I LSAPP_LSDet: cell changed and startDetection result: curPOI : null :: next POI : R2
+12-22 14:57:11.475  4349  4358 I LSAPP_LSDet: Fast detection on by requesting location update continuously...Run Detection upon new location provider update : {CurPOI:null:NextPOI:R2}
+12-22 14:57:11.569  4349  4358 I LSAPP_Beacon: toggleWifi: do nothing : action=true: curWifiState=ENABLE SaveState=ENABLE
+12-22 14:57:11.569  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: network provider enabled:true
+12-22 14:57:11.569  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: already in monitoring state...return quickly without reset current location
+12-22 14:57:11.842  4349  4358 I LSAPP_DBG: Run Detection upon new location provider update : {CurPOI:null:NextPOI:R2} :  Fast Detection Start Listening Location updates.. : 
+12-22 14:57:13.374  4349  4349 I LSAPP_Beacon: notifyAllCallers : notify caller POI=R3 caller:Handler{45ef10a0}
+12-22 14:57:13.374  4349  4358 I LSAPP_LSDet: processMessage() : BEACONSCAN_RESULT Async done....check beacon scan results.
+12-22 14:57:13.374  4349  4358 I LSAPP_LSDet: checkBeaconScanResult: cur poi=null
+12-22 14:57:13.374  4349  4358 D LSAPP_Utils: Set2String: empty set..return null string
+12-22 14:57:13.374  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 14:57:13.374  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:13.374  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 14:57:13.374  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:13.374  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 14:57:13.374  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:13.374  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 14:57:13.374  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:13.374  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 14:57:13.374  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:13.374  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:13.374  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:13.381  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:57:13.381  4349  4358 I LSAPP_LSDet: checkEnteringBeacons: Beacon no match any poi...:
+12-22 14:57:13.397  4349  4358 I LSAPP_LocMon: onLocationChanged() :Location[mProvider=network,mTime=1293051433314,mLatitude=42.33249,mLongitude=-88.104054,mHasAltitude=false,mAltitude=0.0,mHasSpeed=false,mSpeed=0.0,mHasBearing=false,mBearing=0.0,mHasAccuracy=true,mAccuracy=2057.0,mExtras=Bundle[mParcelledData.dataSize=148]]
+12-22 14:57:13.413  4349  4358 I LSAPP_LocMon: Sending Message to caller..either LSMan or LSDet..by this instance's caller handler
+12-22 14:57:13.413  4349  4358 I LSAPP_LSDet: processMessage() : LOCATION_UPDATE available from Location monitor
+12-22 14:57:13.421  4349  4358 I LSAPP_LSDet: checkPOIState : loc update from loc mon: lat:lgt=42.33249::-88.104054
+12-22 14:57:13.702  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: Work measured lat:lgt:accu=42.33249:-88.104054:2057 :: Poi Lat:lgt=42.2885:-88.0003 : dist=9851.433: enteringR=100
+12-22 14:57:13.702  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: Home measured lat:lgt:accu=42.33249:-88.104054:2057 :: Poi Lat:lgt=42.1066:-88.1084 : dist=25093.873: enteringR=100
+12-22 14:57:13.702  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R1 measured lat:lgt:accu=42.33249:-88.104054:2057 :: Poi Lat:lgt=42.300809:-88.014243 : dist=8197.679: enteringR=100
+12-22 14:57:13.710  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R2 measured lat:lgt:accu=42.33249:-88.104054:2057 :: Poi Lat:lgt=42.33249:-88.104054 : dist=0.0: enteringR=100
+12-22 14:57:13.710  4349  4358 I LSAPP_LSDet: Detection checkPoiDistance :: enter POI :R2 dist:enterR:enterDistMin: 0.0:100:0.0
+12-22 14:57:13.710  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R3 measured lat:lgt:accu=42.33249:-88.104054:2057 :: Poi Lat:lgt=42.322035:-88.163594 : dist=5043.1167: enteringR=100
+12-22 14:57:13.710  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R4 measured lat:lgt:accu=42.33249:-88.104054:2057 :: Poi Lat:lgt=42.345424:-88.292889 : dist=15627.997: enteringR=100
+12-22 14:57:13.710  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R$ measured lat:lgt:accu=42.33249:-88.104054:2057 :: Poi Lat:lgt=42.347957:-88.273696 : dist=14085.026: enteringR=100
+12-22 14:57:13.710  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R6 measured lat:lgt:accu=42.33249:-88.104054:2057 :: Poi Lat:lgt=42.35684:-88.408009 : dist=25192.16: enteringR=100
+12-22 14:57:13.710  4349  4358 I LSAPP_LSDet: Detection checkPoiDistance : entering :R2
+12-22 14:57:13.710  4349  4358 I LSAPP_LSDet: Fast Dection checkPOIState : Moving into POI with bouncing check : R2: Distance:0.0{lat:lgt:accuracy:42.33249:-88.104054:2057}
+12-22 14:57:13.819  4349  4358 I LSAPP_DBG: Detection Debouncing : moving into or leaving =true still deboucing with count=0 : 
+12-22 14:57:14.163  4349  4358 I LSAPP_LSDet: Detection enteringPOI :: notify VSM : >>>Entering Location POI ::R2
+12-22 14:57:14.163  4349  4358 I LSAPP_Utils: mergeSets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:14.178  4349  4358 I LSAPP_Prov: updated entry: content://com.motorola.locationsensor/poi
+12-22 14:57:14.178  4349  4358 I LSAPP_POI: updatePoi : entry exist, update value:wificonnmac=null celljsons={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} poi=R2 time=0 lgt=-88.104054 _id=26 wifimac=null name=32400 N Bacon Rd Grayslake, IL 60030  btmac=null addr=32400 N Bacon Rd Grayslake, IL 60030  radius=1500 lat=42.33249
+12-22 14:57:14.178  4349  4358 I LSAPP_LSDet: updatePoiCellJsons :: POI : R2celljsons:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:14.178  4349  4357 E LSAPP_LSMan: processMessage() : unknown msg::402
+12-22 14:57:14.186  4349  4358 D LSAPP_VSM: Sending : com.motorola.situation.PROXY with params #sensor;name=com.motorola.virtualsensor.Meaningfullocation;p0=R2;end;
+12-22 14:57:14.202  4349  4358 I LSAPP_DBG: R2 : #Intent;action=com.motorola.situation.VSENSOR;S.android.intent.extra.TEXT=%23sensor%3Bname%3Dcom.motorola.virtualsensor.Meaningfullocation%3Bp0%3DR2%3Bend%3B;end : 
+12-22 14:57:15.710  4349  4358 I LSAPP_DBG: Fast Detection : notify VSM >>>Entering POI: : R2 : : Wifi Off : 
+12-22 14:57:16.538  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 14:57:16.585  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:16.592  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 14:57:16.592  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:16.592  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 14:57:16.592  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:16.592  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 14:57:16.600  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:16.600  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 14:57:16.600  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:16.600  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:16.600  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:16.600  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:57:16.600  4349  4358 I LSAPP_Prov: query: content://com.motorola.locationsensor/poiMacthes 401
+12-22 14:57:16.608  4349  4358 I LSAPP_Prov: query :: Matching PoiTable selection:null
+12-22 14:57:16.631  4349  4358 I LSAPP_POI: loadPoiList :: poi, _id=23, poi=Work, lat=42.2885, lgt=-88.0003, radius=1500, addr=600 U.S. 45 Libertyville, IL 60048 , name=600 U.S. 45 Libertyville, IL 60048 , celljson={"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"}, wifimac=00:15:70:91:12:2e&&00:15:70:91:17:f6&&f8:7b:7a:ef:80:22&&00:15:70:91:17:f4&&00:15:70:91:1d:20&&00:1c:10:1e:0f:0c&&00:15:70:91:1d:22&&98:fc:11:53:a7:b4&&00:1e:2a:65:bf:64&&00:15:70:90:fe:48&&00:15:70:91:15:08&&00:15:70:91:12:42&&00:15:70:91:12:40&&00:15:70:7c:10:b2&&00:15:70:7c:10:b0&&00:25:9c:74:d8:c1&&00:15:70:90:fe:4a&&00:15:70:91:15:02&&00:15:70:91:15:00&&00:15:70:91:1d:84&&00:25:9c:b0:5d:d7&&00:15:70:91:18:8e&&00:15:70:91:18:8c&&00:15:70:91:15:0a&&00:15:70:91:17:72&&00:15:70:91:1d:86&&00:15:70:91:17:70, wificonnmac=null, btmac=null, time=0
+12-22 14:57:16.631  4349  4358 I LSAPP_POI: loadPoiList :: poi, _id=24, poi=Home, lat=42.1066, lgt=-88.1084, radius=1500, addr=4573 Crab Orchard Dr Hoffman Estates, IL 60192 , name=4573 Crab Orchard Dr Hoffman Estates, IL 60192 , celljson={"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"}, wifimac=00:23:51:ca:59:69&&94:44:52:5a:13:16&&00:1e:c7:d0:27:79&&00:11:50:40:50:8d&&00:22:3f:8b:bc:1d&&00:11:50:29:36:75&&00:16:b6:0d:2f:ce&&00:1d:7e:59:f2:03&&00:1e:e5:b2:5e:24&&00:14:6c:14:ec:fa, wificonnmac=null, btmac=null, time=0
+12-22 14:57:16.631  4349  4358 I LSAPP_POI: loadPoiList :: poi, _id=25, poi=R1, lat=42.300809, lgt=-88.014243, radius=1500, addr=1501 Harris Rd Mundelein, IL 60060 , name=1501 Harris Rd Mundelein, IL 60060 , celljson={"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:57:16.631  4349  4358 I LSAPP_POI: loadPoiList :: poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:57:16.639  4349  4358 I LSAPP_POI: loadPoiList :: poi, _id=27, poi=R3, lat=42.322035, lgt=-88.163594, radius=1500, addr=34782 N Gilmer Rd Round Lake, IL 60073 , name=34782 N Gilmer Rd Round Lake, IL 60073 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423061"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:57:16.647  4349  4358 I LSAPP_POI: loadPoiList :: poi, _id=28, poi=R4, lat=42.345424, lgt=-88.292889, radius=1500, addr=1109-1199 Oakwood Dr N McHenry, IL 60050 , name=1109-1199 Oakwood Dr N McHenry, IL 60050 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423040"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:57:16.647  4349  4358 I LSAPP_POI: loadPoiList :: poi, _id=29, poi=R$, lat=42.347957, lgt=-88.273696, radius=1500, addr=3908 W Clearbrook Ave McHenry, IL 60050 , name=3908 W Clearbrook Ave McHenry, IL 60050 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26455949"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:57:16.655  4349  4358 I LSAPP_POI: loadPoiList :: poi, _id=30, poi=R6, lat=42.35684, lgt=-88.408009, radius=1500, addr=10412 County Highway 1 Woodstock, IL 60098 , name=10412 County Highway 1 Woodstock, IL 60098 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26425920"}&&{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85408309"}&&{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85438429"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:57:16.655  4349  4358 I LSAPP_POI: loadPoiList ::  8
+12-22 14:57:16.663  4349  4358 E LSAPP_POI: notifyDetectionPoiChanged...after refresh from POI observer.
+12-22 14:57:16.663  4349  4358 I LSAPP_LSDet: processMessage() : POI_REFRESH from poi adapter...add proximityAlert.
+12-22 14:57:19.819  4349  4349 I LSAPP_LSMan: onStartCommand : already running, do nothing
+12-22 14:57:24.030  4349  4349 I LSAPP_DBG: Fast Detection on = true
+12-22 14:57:24.030  4349  4349 I LSAPP_DBG: Current POI=R2 :: Next POI = R2..
+12-22 14:57:24.030  4349  4349 I LSAPP_DBG:  : 
+12-22 14:57:29.694  4349  4349 I LSAPP_Beacon: notifyAllCallers : notify caller POI=R3 caller:Handler{45ef10a0}
+12-22 14:57:29.694  4349  4358 I LSAPP_LSDet: processMessage() : BEACONSCAN_RESULT Async done....check beacon scan results.
+12-22 14:57:29.694  4349  4358 I LSAPP_LSDet: checkBeaconScanResult: cur poi=poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:57:29.694  4349  4358 I LSAPP_Beacon: RemoveCallerHander : caller:Handler{45ef10a0}Callers :[]
+12-22 14:57:29.702  4349  4358 I LSAPP_Beacon: stopPassiveBeaconListen: stop passive wifi scan listening upon curpoi detected or left poi!
+12-22 14:57:41.342  4349  4349 I LSAPP_TelMon: GSM :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} new_val: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:41.342  4349  4349 I LSAPP_TelMon: onCellTowerChanged :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:41.389  4349  4349 I LSAPP_TelMon: Telmon : celltower changed..cell has seen, it is bouncing....filter out : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:41.397  4349  4349 I LSAPP_TelMon: celltower did not change based on last cell info(lac, cid)...filter out{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:41.397  4349  4349 I LSAPP_TelMon: TelMon : celltower changed....sending to location detection anyway !{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:41.397  4349  4358 I LSAPP_LSDet: processMessage() : START_DETECTION
+12-22 14:57:41.397  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 14:57:41.397  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:41.397  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 14:57:41.397  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:41.397  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 14:57:41.397  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:41.397  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 14:57:41.397  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:41.397  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 14:57:41.397  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:41.397  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:41.397  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 14:57:41.397  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:57:41.397  4349  4358 I LSAPP_LSDet: celltower changed and startDetection...
+12-22 14:57:41.397  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location monitoring because currently in POI:R2
+12-22 14:57:41.405  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location update and passive listen on beacon scan because moving to POI :R2
+12-22 14:57:41.405  4349  4358 I LSAPP_LSDet: cell changed and startDetection result: curPOI : R2 :: next POI : R2
+12-22 14:57:41.405  4349  4358 I LSAPP_LSDet: Fast detection on by requesting location update continuously...Run Detection upon new location provider update : {CurPOI:R2:NextPOI:R2}
+12-22 14:57:41.452  4349  4358 I LSAPP_Beacon: toggleWifi: do nothing : action=true: curWifiState=ENABLE SaveState=ENABLE
+12-22 14:57:41.452  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: network provider enabled:true
+12-22 14:57:41.452  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: already in monitoring state...return quickly without reset current location
+12-22 14:57:41.491  4349  4358 I LSAPP_DBG: Run Detection upon new location provider update : {CurPOI:R2:NextPOI:R2} :  Fast Detection Start Listening Location updates.. : 
+12-22 14:57:43.061  4349  4349 I LSAPP_Beacon: notifyAllCallers : notify caller POI=R3 caller:Handler{45ef10a0}
+12-22 14:57:43.061  4349  4358 I LSAPP_LSDet: processMessage() : BEACONSCAN_RESULT Async done....check beacon scan results.
+12-22 14:57:43.061  4349  4358 I LSAPP_LSDet: checkBeaconScanResult: cur poi=poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 14:57:43.061  4349  4358 I LSAPP_Beacon: RemoveCallerHander : caller:Handler{45ef10a0}Callers :[]
+12-22 14:57:43.069  4349  4358 I LSAPP_Beacon: stopPassiveBeaconListen: stop passive wifi scan listening upon curpoi detected or left poi!
+12-22 15:06:34.030  4349  4349 I LSAPP_TelMon: GSM :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} new_val: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:34.030  4349  4349 I LSAPP_TelMon: onCellTowerChanged :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:34.077  4349  4349 I LSAPP_TelMon: TelMon : celltower changed....new cell..start start tracking !{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:34.163  4349  4357 I LSAPP_LSMan: hasCellTowerChanged :: Yes, start tracking : cur cell :{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85408309"}:: new cell :{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:34.163  4349  4357 I LSAPP_LSMan: cancelAlarmTimer : canceling existing pending 15 min timerPendingIntent{45f5a280: android.os.BinderProxy@45ec46a8}
+12-22 15:06:34.163  4349  4357 I LSAPP_LSMan: scheduleAlarmTimer with Time :1293051994169
+12-22 15:06:34.163  4349  4357 I LSAPP_LSMan: setPendingIntent : setting with intent :Intent { act=com.motorola.locationsensor.loctimer (has extras) }
+12-22 15:06:34.171  4349  4357 I LSAPP_LSMan: scheduleAlarmTimer : 15 min later from : 12999905
+12-22 15:06:34.171  4349  4357 I LSAPP_LSMan: celltower changed...  new cell..we are moving.. :: schedule the 15 timer started and agile detection started....
+12-22 15:06:34.171  4349  4357 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}, {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 15:06:34.171  4349  4357 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:34.171  4349  4357 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 15:06:34.171  4349  4357 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=1 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:34.171  4349  4357 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 15:06:34.171  4349  4357 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:34.171  4349  4357 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 15:06:34.171  4349  4357 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:34.171  4349  4357 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 15:06:34.171  4349  4357 I LSAPP_Utils: StringSubset :{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:34.171  4349  4357 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:34.171  4349  4357 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:34.171  4349  4357 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 15:06:34.171  4349  4357 I LSAPP_LSDet: celltower changed and startDetection...
+12-22 15:06:34.171  4349  4357 I LSAPP_LSDet: cell changed and startDetection : start location monitoring because currently in POI:R2
+12-22 15:06:34.178  4349  4357 I LSAPP_LSDet: cell changed and startDetection : start location update and passive listen on beacon scan because moving to POI :R2
+12-22 15:06:34.178  4349  4357 I LSAPP_LSDet: cell changed and startDetection result: curPOI : R2 :: next POI : R2
+12-22 15:06:34.178  4349  4357 I LSAPP_LSDet: Fast detection on by requesting location update continuously...Run Detection upon new location provider update : {CurPOI:R2:NextPOI:R2}
+12-22 15:06:34.225  4349  4357 I LSAPP_Beacon: toggleWifi: do nothing : action=true: curWifiState=ENABLE SaveState=ENABLE
+12-22 15:06:34.225  4349  4357 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: network provider enabled:true
+12-22 15:06:34.225  4349  4357 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: already in monitoring state...return quickly without reset current location
+12-22 15:06:34.264  4349  4357 I LSAPP_DBG: Run Detection upon new location provider update : {CurPOI:R2:NextPOI:R2} :  Fast Detection Start Listening Location updates.. : 
+12-22 15:06:35.358  4349  4349 I LSAPP_Beacon: notifyAllCallers : notify caller POI=R3 caller:Handler{45ef10a0}
+12-22 15:06:35.358  4349  4358 I LSAPP_LSDet: processMessage() : BEACONSCAN_RESULT Async done....check beacon scan results.
+12-22 15:06:35.358  4349  4349 I LSAPP_TelMon: GSM :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"} new_val: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:35.358  4349  4358 I LSAPP_LSDet: checkBeaconScanResult: cur poi=poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 15:06:35.358  4349  4358 I LSAPP_Beacon: RemoveCallerHander : caller:Handler{45ef10a0}Callers :[]
+12-22 15:06:35.358  4349  4358 I LSAPP_Beacon: stopPassiveBeaconListen: stop passive wifi scan listening upon curpoi detected or left poi!
+12-22 15:06:35.358  4349  4349 I LSAPP_TelMon: onCellTowerChanged :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:35.460  4349  4349 I LSAPP_TelMon: Telmon : celltower changed..cell has seen, it is bouncing....filter out : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:35.499  4349  4349 I LSAPP_TelMon: celltower did not change based on last cell info(lac, cid)...filter out{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:35.499  4349  4349 I LSAPP_TelMon: TelMon : celltower changed....sending to location detection anyway !{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:35.499  4349  4358 I LSAPP_LSDet: processMessage() : START_DETECTION
+12-22 15:06:35.499  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}, {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 15:06:35.506  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:35.506  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 15:06:35.506  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=1 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:35.506  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 15:06:35.506  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:35.506  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 15:06:35.506  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:35.506  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 15:06:35.506  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:35.506  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:35.506  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:35.506  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 15:06:35.506  4349  4358 I LSAPP_LSDet: celltower changed and startDetection...
+12-22 15:06:35.506  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location monitoring because currently in POI:R2
+12-22 15:06:35.514  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location update and passive listen on beacon scan because moving to POI :R2
+12-22 15:06:35.514  4349  4358 I LSAPP_LSDet: cell changed and startDetection result: curPOI : R2 :: next POI : R2
+12-22 15:06:35.514  4349  4358 I LSAPP_LSDet: Fast detection on by requesting location update continuously...Run Detection upon new location provider update : {CurPOI:R2:NextPOI:R2}
+12-22 15:06:35.561  4349  4358 I LSAPP_Beacon: toggleWifi: do nothing : action=true: curWifiState=ENABLE SaveState=ENABLE
+12-22 15:06:35.561  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: network provider enabled:true
+12-22 15:06:35.561  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: already in monitoring state...return quickly without reset current location
+12-22 15:06:35.600  4349  4358 I LSAPP_DBG: Run Detection upon new location provider update : {CurPOI:R2:NextPOI:R2} :  Fast Detection Start Listening Location updates.. : 
+12-22 15:06:36.600  4349  4349 I LSAPP_TelMon: GSM :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"} new_val: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:36.600  4349  4349 I LSAPP_TelMon: onCellTowerChanged :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:36.655  4349  4349 I LSAPP_TelMon: Telmon : celltower changed..cell has seen, it is bouncing....filter out : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:36.655  4349  4349 I LSAPP_TelMon: celltower did not change based on last cell info(lac, cid)...filter out{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:36.655  4349  4349 I LSAPP_TelMon: TelMon : celltower changed....sending to location detection anyway !{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:36.655  4349  4358 I LSAPP_LSDet: processMessage() : START_DETECTION
+12-22 15:06:36.655  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}, {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 15:06:36.655  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:36.655  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 15:06:36.663  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=1 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:36.663  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 15:06:36.663  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:36.663  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 15:06:36.663  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:36.663  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 15:06:36.663  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:36.663  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:36.663  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:36.663  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 15:06:36.663  4349  4358 I LSAPP_LSDet: celltower changed and startDetection...
+12-22 15:06:36.663  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location monitoring because currently in POI:R2
+12-22 15:06:36.733  4349  4349 I LSAPP_Beacon: notifyAllCallers : notify caller POI=R3 caller:Handler{45ef10a0}
+12-22 15:06:36.733  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location update and passive listen on beacon scan because moving to POI :R2
+12-22 15:06:36.733  4349  4358 I LSAPP_LSDet: cell changed and startDetection result: curPOI : R2 :: next POI : R2
+12-22 15:06:36.733  4349  4358 I LSAPP_LSDet: Fast detection on by requesting location update continuously...Run Detection upon new location provider update : {CurPOI:R2:NextPOI:R2}
+12-22 15:06:36.795  4349  4358 I LSAPP_Beacon: toggleWifi: do nothing : action=true: curWifiState=ENABLE SaveState=ENABLE
+12-22 15:06:36.795  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: network provider enabled:true
+12-22 15:06:36.795  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: already in monitoring state...return quickly without reset current location
+12-22 15:06:36.842  4349  4358 I LSAPP_DBG: Run Detection upon new location provider update : {CurPOI:R2:NextPOI:R2} :  Fast Detection Start Listening Location updates.. : 
+12-22 15:06:36.967  4349  4358 I LSAPP_LSDet: processMessage() : BEACONSCAN_RESULT Async done....check beacon scan results.
+12-22 15:06:36.967  4349  4358 I LSAPP_LSDet: checkBeaconScanResult: cur poi=poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 15:06:36.967  4349  4358 I LSAPP_Beacon: RemoveCallerHander : caller:Handler{45ef10a0}Callers :[]
+12-22 15:06:36.975  4349  4358 I LSAPP_Beacon: stopPassiveBeaconListen: stop passive wifi scan listening upon curpoi detected or left poi!
+12-22 15:06:37.928  4349  4349 I LSAPP_TelMon: GSM :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"} new_val: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:37.928  4349  4349 I LSAPP_TelMon: onCellTowerChanged :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:37.975  4349  4349 I LSAPP_TelMon: Telmon : celltower changed..cell has seen, it is bouncing....filter out : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:37.975  4349  4349 I LSAPP_TelMon: celltower did not change based on last cell info(lac, cid)...filter out{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:37.975  4349  4349 I LSAPP_TelMon: TelMon : celltower changed....sending to location detection anyway !{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:06:37.975  4349  4358 I LSAPP_LSDet: processMessage() : START_DETECTION
+12-22 15:06:37.975  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}, {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}]
+12-22 15:06:37.975  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:37.975  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 15:06:37.975  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=1 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:37.975  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 15:06:37.975  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:37.975  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 15:06:37.975  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:37.975  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 15:06:37.975  4349  4358 I LSAPP_Utils: StringSubset :{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} contains celljon ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:37.975  4349  4358 I LSAPP_Utils: StringSubset : single match true : sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} :: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:37.975  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match true : matchcount=1:minsize=0 sub sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} == {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}
+12-22 15:06:37.983  4349  4358 I LSAPP_LSDet: checkCellPoi matches tuple :: R2 ::value::poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 15:06:37.983  4349  4358 I LSAPP_LSDet: celltower changed and startDetection...
+12-22 15:06:37.983  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location monitoring because currently in POI:R2
+12-22 15:06:37.991  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location update and passive listen on beacon scan because moving to POI :R2
+12-22 15:06:37.991  4349  4358 I LSAPP_LSDet: cell changed and startDetection result: curPOI : R2 :: next POI : R2
+12-22 15:06:37.999  4349  4358 I LSAPP_LSDet: Fast detection on by requesting location update continuously...Run Detection upon new location provider update : {CurPOI:R2:NextPOI:R2}
+12-22 15:06:38.147  4349  4358 I LSAPP_Beacon: toggleWifi: do nothing : action=true: curWifiState=ENABLE SaveState=ENABLE
+12-22 15:06:38.155  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: network provider enabled:true
+12-22 15:06:38.155  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: already in monitoring state...return quickly without reset current location
+12-22 15:06:38.202  4349  4358 I LSAPP_DBG: Run Detection upon new location provider update : {CurPOI:R2:NextPOI:R2} :  Fast Detection Start Listening Location updates.. : 
+12-22 15:06:39.171  4349  4349 I LSAPP_Beacon: notifyAllCallers : notify caller POI=R3 caller:Handler{45ef10a0}
+12-22 15:06:39.171  4349  4358 I LSAPP_LSDet: processMessage() : BEACONSCAN_RESULT Async done....check beacon scan results.
+12-22 15:06:39.171  4349  4358 I LSAPP_LSDet: checkBeaconScanResult: cur poi=poi, _id=26, poi=R2, lat=42.33249, lgt=-88.104054, radius=1500, addr=32400 N Bacon Rd Grayslake, IL 60030 , name=32400 N Bacon Rd Grayslake, IL 60030 , celljson={"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"}, wifimac=null, wificonnmac=null, btmac=null, time=0
+12-22 15:06:39.171  4349  4358 I LSAPP_Beacon: RemoveCallerHander : caller:Handler{45ef10a0}Callers :[]
+12-22 15:06:39.171  4349  4358 I LSAPP_Beacon: stopPassiveBeaconListen: stop passive wifi scan listening upon curpoi detected or left poi!
+12-22 15:07:59.936  4349  4349 I LSAPP_TelMon: GSM :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"} new_val: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.936  4349  4349 I LSAPP_TelMon: onCellTowerChanged :: cur_val : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.983  4349  4349 I LSAPP_TelMon: Telmon : celltower changed..cell has seen, it is bouncing....filter out : {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.983  4349  4349 I LSAPP_TelMon: celltower did not change based on last cell info(lac, cid)...filter out{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.983  4349  4349 I LSAPP_TelMon: TelMon : celltower changed....sending to location detection anyway !{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.983  4349  4358 I LSAPP_LSDet: processMessage() : START_DETECTION
+12-22 15:07:59.983  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}]
+12-22 15:07:59.983  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.983  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 15:07:59.983  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.983  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 15:07:59.983  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.983  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 15:07:59.983  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.983  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 15:07:59.983  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.983  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R3
+12-22 15:07:59.983  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423061"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.991  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R4
+12-22 15:07:59.991  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423040"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.991  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R$
+12-22 15:07:59.991  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26455949"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.991  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R6
+12-22 15:07:59.991  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26425920"}&&{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85408309"}&&{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85438429"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:07:59.991  4349  4358 I LSAPP_LSDet: celltower changed and startDetection...
+12-22 15:07:59.991  4349  4358 I LSAPP_LSDet: cell changed and startDetection : start location monitoring because currently in POI:R2
+12-22 15:07:59.991  4349  4358 I LSAPP_LSDet: cell changed and startDetection result: curPOI : R2 :: next POI : null
+12-22 15:07:59.991  4349  4358 I LSAPP_LSDet: Fast detection on by requesting location update continuously...Run Detection upon new location provider update : {CurPOI:R2:NextPOI:null}
+12-22 15:08:00.038  4349  4358 I LSAPP_Beacon: toggleWifi: do nothing : action=true: curWifiState=ENABLE SaveState=ENABLE
+12-22 15:08:00.038  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: network provider enabled:true
+12-22 15:08:00.038  4349  4358 I LSAPP_LocMon: startLocationUpdate : minTime:minDistance=900000:100.0:: already in monitoring state...return quickly without reset current location
+12-22 15:08:00.085  4349  4358 I LSAPP_DBG: Run Detection upon new location provider update : {CurPOI:R2:NextPOI:null} :  Fast Detection Start Listening Location updates.. : 
+12-22 15:08:04.475  4349  4358 I LSAPP_LocMon: onLocationChanged() :Location[mProvider=network,mTime=1293052084470,mLatitude=42.300797,mLongitude=-88.063943,mHasAltitude=false,mAltitude=0.0,mHasSpeed=false,mSpeed=0.0,mHasBearing=false,mBearing=0.0,mHasAccuracy=true,mAccuracy=1817.0,mExtras=Bundle[mParcelledData.dataSize=148]]
+12-22 15:08:04.491  4349  4358 I LSAPP_LocMon: Sending Message to caller..either LSMan or LSDet..by this instance's caller handler
+12-22 15:08:04.514  4349  4358 I LSAPP_LSDet: processMessage() : LOCATION_UPDATE available from Location monitor
+12-22 15:08:04.514  4349  4358 I LSAPP_LSDet: checkPOIState : loc update from loc mon: lat:lgt=42.300797::-88.063943
+12-22 15:08:04.561  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: Work measured lat:lgt:accu=42.300797:-88.063943:1817 :: Poi Lat:lgt=42.2885:-88.0003 : dist=5423.3096: enteringR=100
+12-22 15:08:04.561  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: Home measured lat:lgt:accu=42.300797:-88.063943:1817 :: Poi Lat:lgt=42.1066:-88.1084 : dist=21881.096: enteringR=100
+12-22 15:08:04.569  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R1 measured lat:lgt:accu=42.300797:-88.063943:1817 :: Poi Lat:lgt=42.300809:-88.014243 : dist=4098.2334: enteringR=100
+12-22 15:08:04.569  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R2 measured lat:lgt:accu=42.300797:-88.063943:1817 :: Poi Lat:lgt=42.33249:-88.104054 : dist=4829.883: enteringR=100
+12-22 15:08:04.569  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R3 measured lat:lgt:accu=42.300797:-88.063943:1817 :: Poi Lat:lgt=42.322035:-88.163594 : dist=8547.775: enteringR=100
+12-22 15:08:04.569  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R4 measured lat:lgt:accu=42.300797:-88.063943:1817 :: Poi Lat:lgt=42.345424:-88.292889 : dist=19512.273: enteringR=100
+12-22 15:08:04.569  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R$ measured lat:lgt:accu=42.300797:-88.063943:1817 :: Poi Lat:lgt=42.347957:-88.273696 : dist=18065.826: enteringR=100
+12-22 15:08:04.569  4349  4358 I LSAPP_LSDet: *** checkPoiDistance :: R6 measured lat:lgt:accu=42.300797:-88.063943:1817 :: Poi Lat:lgt=42.35684:-88.408009 : dist=29034.111: enteringR=100
+12-22 15:08:04.569  4349  4358 I LSAPP_LSDet: Detection checkPoiDistance :: delayed leaving thru beacon check...current POI:R2 : dist=4829.883 :accu=1817leavingR=1867
+12-22 15:08:04.569  4349  4358 I LSAPP_LSDet: Detection checkPoiDistance failed to find location dist to any poi...moving to unknown location
+12-22 15:08:04.663  4349  4358 I LSAPP_Beacon: toggleWifi: do nothing : action=true: curWifiState=ENABLE SaveState=ENABLE
+12-22 15:08:04.663  4349  4358 I LSAPP_Beacon: startBeaconScan...upon settle down POI=R2
+12-22 15:08:04.663  4349  4358 I LSAPP_LSDet: Fast Dection scanBeaconUponLeave : leaving POI :R2
+12-22 15:08:04.663  4349  4358 I LSAPP_LSDet: Fast Dection check Leaving thrashing : delayed leave POI :R2
+12-22 15:08:04.663  4349  4358 I LSAPP_DBG: Fast Detection : Beacon checking to Prepare notify VSM : Leaving POI >>>: : R2 : {lat:lgt:accuracy:42.300797:-88.063943:1817} : 
+12-22 15:08:04.788  4349  4358 I LSAPP_TelMon: getBouncingCells :: [{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}]
+12-22 15:08:04.788  4349  4358 I LSAPP_LSDet: checkCellPoi bouncing cells:: {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:08:04.788  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Work
+12-22 15:08:04.788  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087220"}&&{"Lac":"7874","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46087259"}&&{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083791"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:08:04.788  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :Home
+12-22 15:08:04.795  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85405740"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:08:04.795  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R1
+12-22 15:08:04.795  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7893","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"46083989"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:08:04.795  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R2
+12-22 15:08:04.795  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26443350"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:08:04.795  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R3
+12-22 15:08:04.795  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423060"}&&{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423061"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:08:04.795  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R4
+12-22 15:08:04.795  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423040"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:08:04.795  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R$
+12-22 15:08:04.795  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26455949"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:08:04.795  4349  4358 I LSAPP_LSDet: checkCellPoi : POI entry :R6
+12-22 15:08:04.795  4349  4358 I LSAPP_Utils: StringSubset : fuzzy match false : matchcount=0:minsize=0 distinct sets ::{"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26425920"}&&{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85408309"}&&{"Lac":"7182","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"85438429"} !! {"Lac":"7875","CntryISO":"us","NetTyp":"GSM","NetOp":"310260","Cid":"26423070"}
+12-22 15:08:06.053  4349  4349 I LSAPP_Beacon: notifyAllCallers : notify caller POI=R2 caller:Handler{45ef10a0}
+12-22 15:08:06.053  4349  4358 I LSAPP_LSDet: processMessage() : BEACONSCAN_RESULT Async done....check beacon scan results.
+12-22 15:08:06.053  4349  4358 D LSAPP_Utils: Set2String: empty set..return null string
+12-22 15:08:06.053  4349  4358 I LSAPP_LSDet: checkBeaconScanResult: checkLeavingThrashing : Beacon check: no match...Leaving POI :R2
+12-22 15:08:06.053  4349  4358 I LSAPP_DBG: Detection Debouncing : moving into or leaving =false still deboucing with count=-1 : 
+12-22 15:08:06.170  4349  4358 I LSAPP_LSDet: Detection leavingPOI :: notify VSM : OFF Wifi : Leaving Location POI >>> ::R2
+12-22 15:08:06.186  4349  4358 D LSAPP_VSM: Sending : com.motorola.situation.PROXY with params #sensor;name=com.motorola.virtualsensor.Meaningfullocation;p0=Transient;end;

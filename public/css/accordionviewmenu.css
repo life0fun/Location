@@ -1,0 +1,85 @@
+#wrapper {
+    margin: 20px;
+}
+
+.padded {
+    padding: 10px;
+    clear: both;
+    zoom: 1;
+}
+
+.padded ul li {
+    list-style: inside square;
+}
+
+.block {
+    display: block;
+}
+
+ul.info li {
+    list-style: inside square;
+}
+ul.info {
+    margin-bottom: 1em;
+}
+p.code {
+    background: #000;
+    color: #cfc;
+    padding: 20px;
+    font-family: Courier;
+    font-size: 1.2em;
+    margin-left: 4em;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+li h3 {
+    display: inline;
+}
+
+p {
+    margin-bottom: 1em;
+}
+strong {
+    font-weight: bold;
+}
+ol.code { font-size: 1.2em;border: 1px solid #ccc; padding: 5px; margin: 0 0 1em 4em; }
+ol.code code { display: block; padding: 3px; margin-bottom: 0; }
+.code li { background: #ddd; border: 1px solid #ccc; margin: 0 0 2px 2.2em; list-style-type: decimal-leading-zero; }
+.indent1 { padding-left: 1em; }
+.indent2 { padding-left: 2em; }
+.indent3 { padding-left: 3em; }
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+.yui-accordionview {
+    margin-bottom: 1.5em;
+}

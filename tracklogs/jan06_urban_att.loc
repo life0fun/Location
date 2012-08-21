@@ -1,0 +1,20 @@
+{"lat":"42.253397", "_id":"13", "accuracy":"1500", "lgt":"-88.021496", "poi":"s1"}
+{"lat":"42.28841", "_id":"12", "accuracy":"1500", "lgt":"-88.000524", "poi":"work"}
+{"lat":"42.047832", "_id":"15", "accuracy":"1500", "lgt":"-88.032576", "poi":"s3"}
+{"lat":"42.1891", "_id":"14", "accuracy":"1500", "lgt":"-88.102214", "poi":"s2"}
+{"lat":"42.026868", "_id":"16", "accuracy":"1500", "lgt":"-88.084787", "poi":"s4"}
+{"lat":"42.1066", "_id":"6", "accuracy":"1500", "lgt":"-88.1088", "poi":"Home"}
+{"timestamp":"01-06 12:49:14", "poi":"work", "lat":"42.288425", "type":"detection", "lgt":"-88.000408", "accuracy":"60"}
+{"timestamp":"01-06 13:32:26", "poi":"Transient", "lat":"42.190827", "type":"detection", "lgt":"-88.100614", "accuracy":"524"}
+{"timestamp":"01-06 13:42:11", "poi":"Transient", "lat":"42.189101", "type":"detection", "lgt":"-88.102214", "accuracy":"85"}
+{"timestamp":"01-06 13:50:44", "poi":"s2", "lat":"42.189353", "type":"detection", "lgt":"-88.102504", "accuracy":"61"}
+{"timestamp":"01-06 14:05:49", "poi":"s2", "lat":"42.130268", "type":"detection", "lgt":"-88.098105", "accuracy":"95"}
+{"timestamp":"01-06 14:20:50", "poi":"Transient", "lat":"42.051066", "type":"detection", "lgt":"-88.043513", "accuracy":"1491"}
+{"timestamp":"01-06 14:20:52", "poi":"Transient", "lat":"42.051225", "type":"detection", "lgt":"-88.044772", "accuracy":"1342"}
+{"timestamp":"01-06 15:04:59", "poi":"Transient", "lat":"42.026868", "type":"detection", "lgt":"-88.084788", "accuracy":"115"}
+{"timestamp":"01-06 15:17:16", "poi":"Home", "lat":"42.025792", "type":"detection", "lgt":"-88.083261", "accuracy":"75"}
+{"timestamp":"01-06 15:17:16", "poi":"Home", "lat":"42.025792", "type":"detection", "lgt":"-88.083261", "accuracy":"75"}
+{"timestamp":"01-06 15:38:31", "poi":"Home", "lat":"42.106757", "type":"detection", "lgt":"-88.108809", "accuracy":"63"}
+{"timestamp":"01-06 16:08:31", "poi":"Home", "lat":"42.106785", "type":"detection", "lgt":"-88.108599", "accuracy":"64"}
+{"timestamp":"01-06 16:31:10", "poi":"Home", "lat":"42.107040", "type":"detection", "lgt":"-88.108639", "accuracy":"59"}
+{"timestamp":"01-06 17:49:27", "poi":"Home", "lat":"42.106494", "type":"detection", "lgt":"-88.108435", "accuracy":"60"}

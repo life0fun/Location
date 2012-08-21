@@ -1,0 +1,70 @@
+#container
+  #header
+    h1
+      //img(src="/css/img/logo.png", alt="Node Knockout")
+    #player-box
+      - if (user != null)
+        #logged-in-box
+          - if (avatar != "undefined")
+            img(src: avatar)
+          .name Logged in as #{user}
+          a(id="logout", href="/logout") Logout when you're dead, sissy 
+      - else
+        #logged-out-box
+          a(id="login", href="#").big-yellow-button.button Sign In
+    a(id="vote-button", href='http://', title='Vote', target="nko")
+      img(src="http://google.com", alt="KO!")
+
+  div#container.cols.xi
+    div.col.a.top
+      #live-action-container
+        div#play-overlay
+        #start-play-now
+          a(href="/arena").big-yellow-button.button.big Start Game!
+        -//canvas#live-action
+        img#live-action-placeholder(src="/css/img/aaron3.png")
+    div.col.b.top
+      .leaderboard
+        h2 Leaderboard 
+        h2.kill-label Kills
+        ul.leaderboard
+          - var counter = 0
+          - each killer in killers
+            - counter++
+            - var lbkiller = JSON.parse(killer)
+            - var userkey = lbkiller.user.providerName + "|" + lbkiller.user.preferredUsername + "|" + lbkiller.user.email		
+            li
+              .name= lbkiller.user.preferredUsername
+              .avatar
+                - if (lbkiller.user.photo != "undefined")
+                  .avatar
+                    img(src: lbkiller.user.photo, alt: "avatar")
+              .score= kcounts[userkey]
+              .badges
+              .rank= counter
+      - if (user != null)
+        div#leaderboard-you.leaderboard
+          a(id="start-you", href="/arena").big-yellow-button.button.small Play Now!
+          ul.leaderboard
+            li.you
+              .name #{user}
+              - if (avatar != "undefined")
+                .avatar
+                  img(src: avatar, alt: "avatar")
+              .score #{score}
+              .badges
+              .rank #{rank}
+        
+  div.cols.xi
+    .a
+      div#twitter-feed.panel
+        h2 Nodelicious Updates
+        script(src:"http://widgets.twimg.com/j/2/widget.js")
+        script(src:"/js/twitterFeed.js")  
+  #footer
+  
+div#login-modal.hidden
+  iframe(id="login-iframe", src="https://nodelicious.rpxnow.com/openid/embed?token_url=http%3A%2F%2F"+HOST+"%2Flogin",  scrolling="no",  frameBorder="no",  allowtransparency="true")
+  p#login-modal-text Or <a href="#">play anonymously</a> you dirty, no good coward.
+	
+script(src:"/js/knockout.js")

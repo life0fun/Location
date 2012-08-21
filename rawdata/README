@@ -1,0 +1,12 @@
+1. extract all the LSAPP log from adb log, first the gz file, then the current log.main.txt
+   find . -iname 'log.main.txt.gz' -print0 | xargs -0 zgrep --no-filename LSAPP | grep -v Heal | grep -v String2Set  > tmo2_rural_Jan03.log
+   find . -iname 'log.main.txt' -print0 | xargs -0 grep --no-filename LSAPP | grep -v Heal | grep -v String2Set  >> tmo2_rural_Jan03.log
+
+2. edit the log file....make sure all logs pertain to one single day. the detectpoi handle logs one day per time!!
+
+3. run detectpoi.py, note that dettectpoi.py will write output log to a local file named x
+   mv x tmo2_rural_Jan03.loc
+
+4. copy the .loc file to node server.
+   rsync -avz $1 haijin@node.am.mot.com:nodejs/mysrc/location/rawdata
+

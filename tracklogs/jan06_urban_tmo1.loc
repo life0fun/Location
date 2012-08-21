@@ -1,0 +1,21 @@
+{"lat":"42.106666", "_id":"11", "accuracy":"1500", "lgt":"-88.108461", "poi":"Home"}
+{"lat":"42.187128", "_id":"24", "accuracy":"1500", "lgt":"-88.101639", "poi":"S2"}
+{"lat":"42.024048", "_id":"26", "accuracy":"1500", "lgt":"-88.085051", "poi":"S4"}
+{"lat":"42.288456", "_id":"1", "accuracy":"1500", "lgt":"-88.000299", "poi":"Work"}
+{"lat":"42.041856", "_id":"25", "accuracy":"1500", "lgt":"-88.038552", "poi":"S3"}
+{"lat":"42.253095", "_id":"23", "accuracy":"1500", "lgt":"-88.021783", "poi":"S1"}
+{"timestamp":"01-06 12:50:11", "poi":"Work", "lat":"42.288464", "type":"detection", "lgt":"-88.000459", "accuracy":"36"}
+{"timestamp":"01-06 12:50:11", "poi":"Work", "lat":"42.288464", "type":"detection", "lgt":"-88.000459", "accuracy":"36"}
+{"timestamp":"01-06 12:50:20", "poi":"Work", "lat":"42.288483", "type":"detection", "lgt":"-88.000485", "accuracy":"39"}
+{"timestamp":"01-06 13:05:22", "poi":"Transient", "lat":"42.288737", "type":"detection", "lgt":"-88.002096", "accuracy":"70"}
+{"timestamp":"01-06 13:12:22", "poi":"Transient", "lat":"42.253095", "type":"detection", "lgt":"-88.021784", "accuracy":"528"}
+{"timestamp":"01-06 13:21:43", "poi":"S1", "lat":"42.253700", "type":"detection", "lgt":"-88.021210", "accuracy":"60"}
+{"timestamp":"01-06 13:36:38", "poi":"Transient", "lat":"42.187128", "type":"detection", "lgt":"-88.101639", "accuracy":"1364"}
+{"timestamp":"01-06 13:46:29", "poi":"S2", "lat":"42.187128", "type":"detection", "lgt":"-88.101639", "accuracy":"1364"}
+{"timestamp":"01-06 13:46:30", "poi":"Transient", "lat":"42.188732", "type":"detection", "lgt":"-88.102969", "accuracy":"60"}
+{"timestamp":"01-06 14:41:11", "poi":"Transient", "lat":"42.041404", "type":"detection", "lgt":"-88.041966", "accuracy":"2094"}
+{"timestamp":"01-06 15:03:14", "poi":"Transient", "lat":"42.024048", "type":"detection", "lgt":"-88.085051", "accuracy":"2572"}
+{"timestamp":"01-06 15:07:03", "poi":"S4", "lat":"42.024048", "type":"detection", "lgt":"-88.085051", "accuracy":"2572"}
+{"timestamp":"01-06 15:11:28", "poi":"Transient", "lat":"42.025792", "type":"detection", "lgt":"-88.083261", "accuracy":"75"}
+{"timestamp":"01-06 15:35:30", "poi":"Home", "lat":"42.083781", "type":"detection", "lgt":"-88.091770", "accuracy":"2194"}
+{"timestamp":"01-06 15:50:32", "poi":"Home", "lat":"42.106669", "type":"detection", "lgt":"-88.108396", "accuracy":"60"}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+		<name>Chicago Downtown route</name>
+		<description>Chicago route</description>
+		
+        <Placemark>   
+            <name><![CDATA[Pumpkins at Union Square Market ]]></name>
+            <Style><IconStyle><Icon><href>http://searcharoo.net/searcharoov6/testfiles/unionsquaremarket.jpg</href></Icon></IconStyle></Style>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>42.288, -88.000,0</coordinates>    
+            </Point>
+        </Placemark>
+	    
+        <Placemark>   
+            <name><![CDATA[Lower East Side ]]></name>
+            <description> </description>
+            <Style><IconStyle><Icon><href>http://searcharoo.net/searcharoov6/testfiles/lowereastside2.jpg</href></Icon></IconStyle></Style>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>42.106777,-88.108327,0</coordinates>    
+            </Point>
+        </Placemark>
+	    
+        <Placemark>   
+            <name><![CDATA[Brooklyn Bridge ]]></name>
+            <description><![CDATA[
+                Rank: (1)
+            ]]></description>
+            <Style><IconStyle><Icon><href>http://searcharoo.net/searcharoov6/testfiles/downtown%20and%20bridge.jpg</href></Icon></IconStyle></Style>
+            <Point>      
+                <extrude>1</extrude>
+		        <altitudeMode>relativeToGround</altitudeMode>
+                <coordinates>42.172805,-88.321674,0</coordinates>    
+            </Point>
+        </Placemark>
+   </Document>
+</kml>

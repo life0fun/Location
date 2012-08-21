@@ -1,0 +1,21 @@
+
+extends layout
+
+append scripts
+  script(src='/js/map.js')
+
+block content
+  #header
+    h1 
+      p Meaningful Location Stream
+    br
+  #container
+    #navbar(style="width: 20%;")
+      ul#toc
+        li 
+          p(style="color:#FDFCDC;font-wieght:bold;") Log Files
+
+    //#map_canvas(style="width:1200px; height:800px")
+    //#map_canvas(style="width: 80%; height: 80%; float: right; position: relative;")
+    #map_canvas(style="position: absolute; left: 200px; top: 20px; float: right; overflow-x: hidden; overflow-y: hidden; width: 100%; height: 100%; z-index: 0; ")
+

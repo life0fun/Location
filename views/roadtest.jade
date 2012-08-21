@@ -1,0 +1,24 @@
+script(src:"./accordionview/utilities.js")
+link(rel="stylesheet", href="/accordionview/assets/skins/sam/reset-fonts.css")
+link(rel="stylesheet", href="/accordionview/assets/skins/sam/accordionview.css")
+
+extend layout
+
+block content
+  #header
+    h1(style="font-size:2em;")
+      p Location Sensor Road Tests
+    br
+  #container
+    #navbar(style="width: 20%;")
+      //#lc(style="border-top-style:solid;border-bottom-style:solid;border-width:1px;padding:6px;")
+      ul(style="display:block;")
+        li Log Files
+        #ld(style="border-top-style:solid;border-width:1px;margin-top:6px;padding:6px;")
+
+      #roadtestlogsmenu
+
+    #map_canvas(style="position: absolute; left: 200px; top: 20px; float: right; overflow-x: hidden; overflow-y: hidden; width: 100%; height: 100%; z-index: 0; ")
+
+script(src:"./accordionview/accordionview.js")
+script(src:"/js/accordionviewmenu.js")

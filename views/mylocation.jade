@@ -1,0 +1,40 @@
+<script src="/js/myloc/locreader.js"></script>
+<script src="/js/mylocation.js"></script>
+#header
+  h1 
+    p My Locations
+
+#infobox
+    ol
+        h4
+          li Connect the phone, Copy/Paste:
+        ol
+          li 
+          em
+          font(color='black', size='4.5') adb shell sqlite3 
+          font(color='blue', size='4.5') /data/data/com.motorola.locationsensor/databases/locationsensor.db 
+          font(color='black', size='4.5') "select _id, lat, lgt, datetime(starttime/1000, 'unixepoch', 'localtime') as starttime, datetime(endtime/1000, 'unixepoch', 'localtime') as endtime, count, accuracy, name, accuname, poitag from loctime order by starttime asc;" > 
+          font(color='red', size='4.5') db.txt
+
+        br
+        li 
+        font(color='black') Upload extracted 
+        font(color='red', size:'4.5') db.txt --->
+        input(type="file", name="dbfile", id="fileselector")
+        br
+        br
+
+    ol
+        h4
+          li 
+          font(color='blue') If you have any Wifi MAC addr(5c:0e:8b:2c:48:91), 
+          br
+          font(color='blue') You can find out the location of the wifi hot spot. 
+          br
+          font(color='blue') Please input Wifi MACs in the following box:
+          li
+          form(method="post")
+          textarea(id='bssids', col=500, row=50, style='width:250px;height:50px',name='bssids')
+          input(type="submit", name="submit", id="submit")
+
+#map_canvas(style="width:100%; height:100%;")

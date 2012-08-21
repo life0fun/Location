@@ -1,0 +1,95 @@
+{"lat":"42.1066", "_id":"24", "accuracy":"1500", "lgt":"-88.1084", "poi":"Home"}
+{"lat":"42.300809", "_id":"25", "accuracy":"1500", "lgt":"-88.014243", "poi":"R1"}
+{"lat":"42.33249", "_id":"26", "accuracy":"1500", "lgt":"-88.104054", "poi":"R2"}
+{"lat":"42.322035", "_id":"27", "accuracy":"1500", "lgt":"-88.163594", "poi":"R3"}
+{"lat":"42.2885", "_id":"23", "accuracy":"1500", "lgt":"-88.0003", "poi":"Work"}
+{"lat":"42.35684", "_id":"30", "accuracy":"1500", "lgt":"-88.408009", "poi":"R6"}
+{"lat":"42.345424", "_id":"28", "accuracy":"1500", "lgt":"-88.292889", "poi":"R4"}
+{"lat":"42.347957", "_id":"29", "accuracy":"1500", "lgt":"-88.273696", "poi":"R$"}
+{"timestamp":"12-22 03:22:49", "poi":"Home", "lat":"42.106724", "type":"detection", "lgt":"-88.108337", "accuracy":"60"}
+{"timestamp":"12-22 03:22:49", "poi":"Home", "lat":"42.106724", "type":"detection", "lgt":"-88.108337", "accuracy":"60"}
+{"timestamp":"12-22 03:23:40", "poi":"Home", "lat":"42.106724", "type":"discovery", "lgt":"-88.108337", "accuracy":"60"}
+{"timestamp":"12-22 05:09:50", "poi":"Home", "lat":"42.083781", "type":"detection", "lgt":"-88.091770", "accuracy":"2194"}
+{"timestamp":"12-22 05:10:37", "poi":"Home", "lat":"42.106646", "type":"detection", "lgt":"-88.108681", "accuracy":"43"}
+{"timestamp":"12-22 05:10:40", "poi":"Home", "lat":"42.106646", "type":"discovery", "lgt":"-88.10868", "accuracy":"43"}
+{"timestamp":"12-22 05:10:37", "poi":"Home", "lat":"42.106646", "type":"detection", "lgt":"-88.108681", "accuracy":"43"}
+{"timestamp":"12-22 05:10:37", "poi":"Home", "lat":"42.106646", "type":"detection", "lgt":"-88.108681", "accuracy":"43"}
+{"timestamp":"12-22 06:13:43", "poi":"Home", "lat":"42.106686", "type":"detection", "lgt":"-88.108691", "accuracy":"48"}
+{"timestamp":"12-22 06:13:54", "poi":"Home", "lat":"42.106686", "type":"discovery", "lgt":"-88.108691", "accuracy":"48"}
+{"timestamp":"12-22 06:24:37", "poi":"Home", "lat":"42.106724", "type":"detection", "lgt":"-88.108337", "accuracy":"60"}
+{"timestamp":"12-22 06:24:51", "poi":"Home", "lat":"42.106724", "type":"detection", "lgt":"-88.108337", "accuracy":"60"}
+{"timestamp":"12-22 06:24:53", "poi":"Home", "lat":"42.106724", "type":"discovery", "lgt":"-88.108337", "accuracy":"60"}
+{"timestamp":"12-22 08:11:29", "poi":"Work", "lat":"42.117247", "type":"detection", "lgt":"-88.095949", "accuracy":"130"}
+{"timestamp":"12-22 08:11:29", "poi":"Work", "lat":"42.117247", "type":"detection", "lgt":"-88.095949", "accuracy":"130"}
+{"timestamp":"12-22 08:58:31", "poi":"Work", "lat":"42.288339", "type":"detection", "lgt":"-88.000206", "accuracy":"60"}
+{"timestamp":"12-22 08:58:33", "poi":"Work", "lat":"42.288338", "type":"discovery", "lgt":"-88.000205", "accuracy":"60"}
+{"timestamp":"12-22 09:03:45", "poi":"Work", "lat":"42.287498", "type":"detection", "lgt":"-88.001282", "accuracy":"1277"}
+{"timestamp":"12-22 09:04:31", "poi":"Work", "lat":"42.288339", "type":"detection", "lgt":"-88.000206", "accuracy":"60"}
+{"timestamp":"12-22 09:04:32", "poi":"Work", "lat":"42.288338", "type":"discovery", "lgt":"-88.000205", "accuracy":"60"}
+{"timestamp":"12-22 09:34:12", "poi":"Work", "lat":"42.288303", "type":"detection", "lgt":"-88.000389", "accuracy":"60"}
+{"timestamp":"12-22 09:34:12", "poi":"Work", "lat":"42.288303", "type":"detection", "lgt":"-88.000389", "accuracy":"60"}
+{"timestamp":"12-22 09:34:43", "poi":"Work", "lat":"42.288346", "type":"detection", "lgt":"-88.000415", "accuracy":"60"}
+{"timestamp":"12-22 09:34:48", "poi":"Work", "lat":"42.288345", "type":"discovery", "lgt":"-88.000415", "accuracy":"60"}
+{"timestamp":"12-22 09:44:42", "poi":"Work", "lat":"42.288442", "type":"detection", "lgt":"-88.000453", "accuracy":"60"}
+{"timestamp":"12-22 10:14:26", "poi":"Work", "lat":"42.288432", "type":"detection", "lgt":"-88.000420", "accuracy":"60"}
+{"timestamp":"12-22 10:14:46", "poi":"Work", "lat":"42.288401", "type":"detection", "lgt":"-88.000432", "accuracy":"60"}
+{"timestamp":"12-22 10:14:55", "poi":"Work", "lat":"42.288401", "type":"discovery", "lgt":"-88.000431", "accuracy":"60"}
+{"timestamp":"12-22 10:44:46", "poi":"Transient", "lat":"42.300809", "type":"detection", "lgt":"-88.014243", "accuracy":"1538"}
+{"timestamp":"12-22 10:53:05", "poi":"null", "lat":"42.301017", "type":"discovery", "lgt":"-88.009483", "accuracy":"1679"}
+{"timestamp":"12-22 10:57:04", "poi":"Transient", "lat":"42.300809", "type":"detection", "lgt":"-88.014243", "accuracy":"1538"}
+{"timestamp":"12-22 11:02:32", "poi":"null", "lat":"42.300809", "type":"discovery", "lgt":"-88.014243", "accuracy":"1538"}
+{"timestamp":"12-22 11:31:25", "poi":"null", "lat":"42.33249", "type":"discovery", "lgt":"-88.104054", "accuracy":"2057"}
+{"timestamp":"12-22 11:34:00", "poi":"null", "lat":"42.33249", "type":"discovery", "lgt":"-88.104054", "accuracy":"2057"}
+{"timestamp":"12-22 11:36:59", "poi":"R2", "lat":"42.332490", "type":"detection", "lgt":"-88.104054", "accuracy":"2057"}
+{"timestamp":"12-22 11:44:56", "poi":"Transient", "lat":"42.334683", "type":"detection", "lgt":"-88.128930", "accuracy":"1588"}
+{"timestamp":"12-22 11:50:14", "poi":"null", "lat":"42.322035", "type":"discovery", "lgt":"-88.163594", "accuracy":"2077"}
+{"timestamp":"12-22 11:50:15", "poi":"Transient", "lat":"42.322035", "type":"detection", "lgt":"-88.163594", "accuracy":"2077"}
+{"timestamp":"12-22 11:51:20", "poi":"R3", "lat":"42.322035", "type":"detection", "lgt":"-88.163594", "accuracy":"2077"}
+{"timestamp":"12-22 11:52:07", "poi":"Transient", "lat":"42.278368", "type":"detection", "lgt":"-88.185255", "accuracy":"2480"}
+{"timestamp":"12-22 12:01:35", "poi":"R3", "lat":"42.322035", "type":"detection", "lgt":"-88.163594", "accuracy":"2077"}
+{"timestamp":"12-22 12:02:51", "poi":"Transient", "lat":"42.325880", "type":"detection", "lgt":"-88.188411", "accuracy":"114"}
+{"timestamp":"12-22 12:20:47", "poi":"null", "lat":"42.345424", "type":"discovery", "lgt":"-88.292889", "accuracy":"2902"}
+{"timestamp":"12-22 12:20:58", "poi":"Transient", "lat":"42.353217", "type":"detection", "lgt":"-88.304210", "accuracy":"75"}
+{"timestamp":"12-22 12:22:03", "poi":"null", "lat":"42.345424", "type":"discovery", "lgt":"-88.292889", "accuracy":"2902"}
+{"timestamp":"12-22 12:26:20", "poi":"R4", "lat":"42.345424", "type":"detection", "lgt":"-88.292889", "accuracy":"2902"}
+{"timestamp":"12-22 12:26:21", "poi":"Transient", "lat":"42.353084", "type":"detection", "lgt":"-88.304305", "accuracy":"75"}
+{"timestamp":"12-22 13:06:21", "poi":"Transient", "lat":"42.347957", "type":"detection", "lgt":"-88.273696", "accuracy":"1967"}
+{"timestamp":"12-22 13:06:25", "poi":"null", "lat":"42.347957", "type":"discovery", "lgt":"-88.273696", "accuracy":"1967"}
+{"timestamp":"12-22 13:23:30", "poi":"R$", "lat":"42.347957", "type":"detection", "lgt":"-88.273696", "accuracy":"1967"}
+{"timestamp":"12-22 13:33:02", "poi":"Transient", "lat":"42.349743", "type":"detection", "lgt":"-88.296253", "accuracy":"75"}
+{"timestamp":"12-22 13:52:36", "poi":"null", "lat":"42.35684", "type":"discovery", "lgt":"-88.408009", "accuracy":"80"}
+{"timestamp":"12-22 13:52:43", "poi":"Transient", "lat":"42.356841", "type":"detection", "lgt":"-88.408009", "accuracy":"80"}
+{"timestamp":"12-22 13:53:43", "poi":"R6", "lat":"42.356841", "type":"detection", "lgt":"-88.408009", "accuracy":"80"}
+{"timestamp":"12-22 14:14:17", "poi":"Transient", "lat":"42.356402", "type":"detection", "lgt":"-88.356462", "accuracy":"1909"}
+{"timestamp":"12-22 14:18:52", "poi":"R4", "lat":"42.345424", "type":"detection", "lgt":"-88.292889", "accuracy":"2902"}
+{"timestamp":"12-22 14:19:07", "poi":"Transient", "lat":"42.353083", "type":"detection", "lgt":"-88.304321", "accuracy":"75"}
+{"timestamp":"12-22 14:26:53", "poi":"R$", "lat":"42.347957", "type":"detection", "lgt":"-88.273696", "accuracy":"1967"}
+{"timestamp":"12-22 14:34:40", "poi":"Transient", "lat":"42.344942", "type":"detection", "lgt":"-88.263473", "accuracy":"422"}
+{"timestamp":"12-22 14:43:08", "poi":"R3", "lat":"42.322035", "type":"detection", "lgt":"-88.163594", "accuracy":"2077"}
+{"timestamp":"12-22 14:43:12", "poi":"Transient", "lat":"42.331332", "type":"detection", "lgt":"-88.204142", "accuracy":"301"}
+{"timestamp":"12-22 14:44:26", "poi":"R3", "lat":"42.322035", "type":"detection", "lgt":"-88.163594", "accuracy":"2077"}
+{"timestamp":"12-22 14:55:42", "poi":"Transient", "lat":"42.335547", "type":"detection", "lgt":"-88.112392", "accuracy":"42"}
+{"timestamp":"12-22 14:57:13", "poi":"R2", "lat":"42.332490", "type":"detection", "lgt":"-88.104054", "accuracy":"2057"}
+{"timestamp":"12-22 15:08:04", "poi":"Transient", "lat":"42.300797", "type":"detection", "lgt":"-88.063943", "accuracy":"1817"}
+{"timestamp":"12-22 15:11:47", "poi":"R1", "lat":"42.300809", "type":"detection", "lgt":"-88.014243", "accuracy":"1538"}
+{"timestamp":"12-22 15:23:55", "poi":"Work", "lat":"42.288682", "type":"detection", "lgt":"-88.001589", "accuracy":"71"}
+{"timestamp":"12-22 15:23:55", "poi":"Work", "lat":"42.288682", "type":"detection", "lgt":"-88.001589", "accuracy":"71"}
+{"timestamp":"12-22 15:39:02", "poi":"Work", "lat":"42.288399", "type":"detection", "lgt":"-88.000369", "accuracy":"60"}
+{"timestamp":"12-22 15:39:05", "poi":"Work", "lat":"42.288399", "type":"discovery", "lgt":"-88.000369", "accuracy":"60"}
+{"timestamp":"12-21 15:32:05", "poi":"null", "lat":"41.892791", "type":"discovery", "lgt":"-87.633006", "accuracy":"638"}
+{"timestamp":"12-21 17:49:53", "poi":"Transient", "lat":"42.290846", "type":"detection", "lgt":"-87.997335", "accuracy":"1104"}
+{"timestamp":"12-21 17:49:53", "poi":"null", "lat":"42.290846", "type":"discovery", "lgt":"-87.997335", "accuracy":"1104"}
+{"timestamp":"12-21 19:05:12", "poi":"Transient", "lat":"42.106814", "type":"detection", "lgt":"-88.108592", "accuracy":"60"}
+{"timestamp":"12-21 19:05:14", "poi":"null", "lat":"42.106813", "type":"discovery", "lgt":"-88.108591", "accuracy":"60"}
+{"timestamp":"12-22 15:42:54", "poi":"Transient", "lat":"42.288464", "type":"detection", "lgt":"-88.000468", "accuracy":"60"}
+{"timestamp":"12-22 15:42:55", "poi":"null", "lat":"42.288463", "type":"discovery", "lgt":"-88.000467", "accuracy":"60"}
+{"timestamp":"12-21 15:32:05", "poi":"null", "lat":"41.892791", "type":"discovery", "lgt":"-87.633006", "accuracy":"638"}
+{"timestamp":"12-21 17:49:53", "poi":"Transient", "lat":"42.290846", "type":"detection", "lgt":"-87.997335", "accuracy":"1104"}
+{"timestamp":"12-21 17:49:53", "poi":"null", "lat":"42.290846", "type":"discovery", "lgt":"-87.997335", "accuracy":"1104"}
+{"timestamp":"12-21 19:05:12", "poi":"Transient", "lat":"42.106814", "type":"detection", "lgt":"-88.108592", "accuracy":"60"}
+{"timestamp":"12-21 19:05:14", "poi":"null", "lat":"42.106813", "type":"discovery", "lgt":"-88.108591", "accuracy":"60"}
+{"timestamp":"12-21 15:32:05", "poi":"null", "lat":"41.892791", "type":"discovery", "lgt":"-87.633006", "accuracy":"638"}
+{"timestamp":"12-21 17:49:53", "poi":"Transient", "lat":"42.290846", "type":"detection", "lgt":"-87.997335", "accuracy":"1104"}
+{"timestamp":"12-21 17:49:53", "poi":"null", "lat":"42.290846", "type":"discovery", "lgt":"-87.997335", "accuracy":"1104"}
+{"timestamp":"12-21 19:05:12", "poi":"Transient", "lat":"42.106814", "type":"detection", "lgt":"-88.108592", "accuracy":"60"}
+{"timestamp":"12-21 19:05:14", "poi":"null", "lat":"42.106813", "type":"discovery", "lgt":"-88.108591", "accuracy":"60"}
